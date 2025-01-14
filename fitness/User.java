@@ -1,3 +1,4 @@
+
 package fitness;
 
 import java.util.ArrayList;
@@ -7,19 +8,16 @@ public class User {
     private int age;
     private ArrayList<WorkoutPlan> workoutPlans;
 
-    // Конструктор
     public User(String name, int age) {
         this.name = name;
         this.age = age;
         this.workoutPlans = new ArrayList<>();
     }
 
-    // Метод для добавления плана тренировки
     public void addWorkoutPlan(WorkoutPlan workoutPlan) {
         workoutPlans.add(workoutPlan);
     }
 
-    // Геттеры
     public String getName() {
         return name;
     }

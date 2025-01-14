@@ -1,25 +1,25 @@
 package fitness;
 
-
 public class WorkoutPlan {
-    // atributs
     private String planName;
     private String[] exercises;
     private int durationInMinutes;
 
-    public WorkoutPlan(String planName, String[] exercises, int durationInMinutes){
+    public WorkoutPlan(String planName, String[] exercises, int durationInMinutes) {
         this.planName = planName;
         this.exercises = exercises;
         this.durationInMinutes = durationInMinutes;
     }
-    // getters
-    public String getPlanName(){
-        return getPlanName();
+
+    public String getPlanName() {
+        return planName;
     }
-    public String[] getExercises(){
-        return getExercises();
+
+    public String[] getExercises() {
+        return exercises;
     }
-    public int getDurationInMinutes(){
+
+    public int getDurationInMinutes() {
         return durationInMinutes;
     }
 
@@ -35,4 +35,3 @@ public class WorkoutPlan {
         return sb.toString().trim();
     }
 }
-
